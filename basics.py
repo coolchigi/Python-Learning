@@ -83,6 +83,12 @@ for letter in 'Ilikegirls':
 """
 
 #RANGE
+count = 0
+for n in range(1000):
+    if n % 2 == 0:
+        count+=1
+print(count)
+
 
 myList1 = [12,34,56,78]
 for n in range(1,11,2):
@@ -92,7 +98,7 @@ word = 'saliva'
 for i,l in enumerate(word):
     print(i,l)
 """
-"""
+
 mylist1 = [1,2,3,4,5,6,7,8,9]
 mylist2 = ['M','n','a','m','e','is','C','h','i','g','o','z'
 ]
@@ -123,13 +129,5 @@ def square(num):
 '''
 If you have a list and want to apply the square function to each element, you use the map keyword
 '''
-
-
-my_nums = [1,2,3,4,5]
-for item in map(square,my_nums):
-    print(item, end=' ')
-
-
-
 
 
